@@ -17,22 +17,25 @@ const countdownFunction = setInterval(function() {
 
     // Display the result in the countdown element
     document.getElementById("countdown").innerHTML =
-    `<div style="display: flex; gap: 40px; text-align: center;">
-        <div>
-            <div style="font-size: 2em;">${days}</div>
-            <div>days</div>
-        </div>
-        <div>
-            <div style="font-size: 2em;">${hours}</div>
-            <div>hours</div>
-        </div>
-        <div>
-            <div style="font-size: 2em;">${minutes}</div>
-            <div>minutes</div>
-        </div>
-        <div>
-            <div style="font-size: 2em; color: red;">${seconds}</div>
-            <div>seconds</div>
+    `<div style="text-align: center;">
+        <div style="font-size: 2em">Countdown</div>
+        <div style="display: flex; gap: 20px; justify-content: center;">
+            <div>
+                <div style="font-size: 2em;">${days}</div>
+                <div>days</div>
+            </div>
+            <div>
+                <div style="font-size: 2em;">${hours}</div>
+                <div>hours</div>
+            </div>
+            <div>
+                <div style="font-size: 2em;">${minutes}</div>
+                <div>minutes</div>
+            </div>
+            <div>
+                <div style="font-size: 2em; color: red;">${seconds}</div>
+                <div>seconds</div>
+            </div>
         </div>
     </div>`;
 
