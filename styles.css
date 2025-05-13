@@ -18,6 +18,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    margin: 50px auto auto auto;
 }
 
 /* Style the countdown timer */

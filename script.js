@@ -1,5 +1,5 @@
 // Set the date we're counting down to (change this to your target date)
-const countdownDate = new Date("June 1, 2025 00:00:00").getTime();
+const countdownDate = new Date("May 26, 2025 12:00:00").getTime();
 
 // Update the countdown every 1 second
 const countdownFunction = setInterval(function() {
@@ -31,7 +31,7 @@ const countdownFunction = setInterval(function() {
             <div>minutes</div>
         </div>
         <div>
-            <div style="font-size: 2em;">${seconds}</div>
+            <div style="font-size: 2em; color: red;">${seconds}</div>
             <div>seconds</div>
         </div>
     </div>`;
