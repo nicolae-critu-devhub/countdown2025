@@ -42,6 +42,6 @@ const countdownFunction = setInterval(function() {
     // If the countdown ends, display a message
     if (distance < 0) {
         clearInterval(countdownFunction);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "🚀 TO THE MOON 🚀";
     }
 }, 1000);
