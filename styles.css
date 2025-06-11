@@ -7,8 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black url('image 1920x1080.png') no-repeat center center fixed;
-    background-size: 1280px 720px;
+    background: #f5f0e6 url('vip.png') no-repeat center center;
 }
 
 .countdown-container {
