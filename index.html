@@ -8,12 +8,22 @@
 </head>
 <body>
     <div class="countdown-container">
-        <div class="countdown" id="countdown" >
-            </div>
+        <div class="countdown" id="countdown">
             <!-- Countdown will appear here -->
         </div>
+        <button id="fullscreen-btn" style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 12px;">🔳 Full Screen</button>
     </div>
 
     <script src="script.js"></script>
+    <script>
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        fullscreenBtn.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        });
+    </script>
 </body>
 </html>
